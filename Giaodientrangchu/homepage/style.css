@@ -14,6 +14,7 @@
     color:white;
     position:sticky;
     top:0;
+    cursor:pointer;
 }
 .nav-bar{
     display:flex;
@@ -107,6 +108,12 @@ select:hover{
     margin-top:10px;
     margin-left:10px;
 }
+/* span:hover{
+    background-color:white;
+    border-radius:20px;
+    color:black;
+    cursor:pointer; 
+}*/
 p{
     margin-top:10px;
     margin-left:10px;
