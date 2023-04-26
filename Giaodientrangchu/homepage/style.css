@@ -33,7 +33,6 @@
 .nav-icon:hover{
     color:red;
 }
-
 .note{
     margin-top:-290px;
     margin-bottom:150px;
@@ -130,6 +129,7 @@
     padding-bottom:4px;
     margin-top:-70px;
     margin-left:50px;
+    cursor:pointer;
 }
 #button2{
     position:absolute;
@@ -139,6 +139,7 @@
     padding-bottom:4px;
     margin-top:-70px;
     margin-left:250px;
+    cursor:pointer;
 }
 /* #play_arrow{
     margin-left:-100px;
@@ -153,7 +154,7 @@
     background-color:rgb(106, 106, 106);
 }
 .button:hover{
-    background-color:indianred;
+    background-color:white;
 }
 select{
     border-style:none;
@@ -253,4 +254,157 @@ p{
 .section_fifth{
     margin-top:140px;
     margin-left:30px;
+}
+
+/* điện thoại */
+@media (max-width: 576px){
+    .container{
+        background-color:black;
+        width:680px;
+        height:2200px;
+        position:relative;
+    }
+    .header{
+        position:absolute;
+    }
+    .home{
+        display:none;
+    }
+    .tvshow{
+        display:none;
+    }
+    .language{
+        display:none;
+    }
+    .right{
+        width:550px;
+        position:sticky;
+        margin-top:620px;
+        margin-left:-420px;
+        border:1px solid white;
+    }
+    select{
+        display:none; 
+    }
+    .screen{
+        box-shadow:none;
+        opacity:1;
+        background-color:transparent;
+    }
+    #advertise{
+        width:550px;
+        height:600px;
+    }
+    h1{
+        font-size:40px;
+        margin-top:300px;
+        margin-left:100px;
+    }
+    .age{
+        margin-top:-500px;
+        margin-left:-30px;
+        border-style:none;
+        background-color:rgb(130, 121, 121);
+        border-radius:0px;
+        padding-right:20px;
+    }
+    .actor{
+        display:none;
+    }
+    .sound{
+        margin-top:-450px;
+        margin-left:-30px;
+        border-style:none;
+        background-color: rgb(130, 121, 121);
+        border-radius:0px;
+
+    }
+    .release{
+        margin-top:-400px;
+        margin-left:-30px;
+        border-style:none;
+        background-color: rgb(68, 63, 63);
+        border-radius:0px;
+    }
+    .time{
+        margin-top:-350px;
+        margin-left:-30px;
+        border-style:none;
+        background-color: rgb(130,  121, 121);
+        border-radius:0px;
+        padding:5px 15px;
+    }
+    .year{
+        margin-top:-300px;
+        margin-left:-30px;
+        border-style:none;
+        background-color: rgb(130,  121, 121);
+        border-radius:0px;
+        padding:5px 15px;
+    }
+    .describle{
+        display:none;
+    }
+    .category{
+        font-size:25px;
+        margin-left: 120px;
+    }
+    #button1{
+        margin-left:20px;
+        margin-top:0px;
+        background-color:black;
+        color:white;
+        border:0px solid white;
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:2px;
+        padding-bottom:4px;
+    }
+    #button1:hover{
+        background-color:white;
+        color:black;
+        cursor:pointer;
+    }
+    #button2{
+        margin-left:180px;
+        margin-top:0px;
+        background-color:black;
+        color:white;
+        border:0px solid white;
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:2px;
+        padding-bottom:4px;
+    }
+    #button2:hover{
+        background-color:white;
+        color:black;
+        cursor:pointer;
+    }
+    #button3{
+        margin-left:340px;
+        margin-top:0px;
+        background-color:black;
+        color:white;
+        border:0px solid white;
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:2px;
+        padding-bottom:4px;
+    }
+    #button3:hover{
+        background-color:white;
+        color:black;
+        cursor:pointer;
+    }
+}
+
+/* màn hình tablet */
+@media only screen and(min-width: 576px) and (max-width: 768px){
+
+}
+
+/* tivi */
+@media only screen and(max-width:1400px){
+
 }

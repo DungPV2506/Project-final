@@ -22,27 +22,42 @@
 
         <div class="header">
             <div class="nav-bar left">
-                <div class="nav-item">
+                <div class="nav-item logo">
                     <img src="./Netflixlogo.png" width="70px" height="30px">
                 </div>
-                <div class="nav-item">Trang chủ</div>
-                <div class="nav-item">Phim T.Hình</div>
-                <div class="nav-item">Phim</div>
-                <div class="nav-item">Mới & Phổ biến</div>
-                <div class="nav-item">Danh sách của tôi</div>
-                <div class="nav-item">Duyệt tìm theo ngôn ngữ</div>
+                <div class="nav-item home">Trang chủ</div>
+                <div class="nav-item tvshow">Phim T.Hình</div>
+                <div class="nav-item film">Phim</div>
+                <div class="nav-item new">Mới & Phổ biến</div>
+                <div class="nav-item mylist">Danh sách của tôi</div>
+                <div class="nav-item language">Duyệt tìm theo ngôn ngữ</div>
             </div>
 
             <div class="nav-bar right">
+                <div class="nav-icon">
+                        <span class="material-symbols-outlined">
+                                home
+                                </span>
+                </div>
                 <div class="nav-icon">
                     <span class="material-symbols-outlined" id="search">
                         search
                         </span>
                 </div>
                 <div class="nav-icon">
+                        <span class="material-symbols-outlined">
+                                download
+                                </span>
+                </div>
+                <div class="nav-icon">
                     <span class="material-symbols-outlined" id="notion">
                     notifications
                     </span>
+                </div>
+                <div class="nav-icon">
+                        <span class="material-symbols-outlined">
+                                settings
+                                </span>
                 </div>
                 <div class="nav-icon">
                     <select>
@@ -68,19 +83,19 @@
 
         <div class="section_zero">
             <div class="advertising">
-                <img src="./anh47.jpg" width="100%" height="600px" style=" margin-top:-50px">
+                <img id="advertise" src="./anh47.jpg" width="100%" height="600px" style=" margin-top:-50px">
                 <div class="note">
                         <div class="screen"></div>
                         <div class="name">
                                 <h1>Lệnh truy nã đỏ</h1>
                         </div>
                         <div class="age">16 +</div>
-                        <div class="time">Thời gian: 1g 58ph</div>
-                        <div class="year">Ra mắt: 2021</div>
+                        <div class="time">1g 58ph</div>
+                        <div class="year">2021</div>
                         <div class="sound">Dolby Atmos 5.1</div>
                         <div class="release">4k HDR</div>
-                        <div class="actor">Diễn viên chính: Dwayne Johnson, Ryan Reynolds, Gal Gadot</div>
-                        <div class="category">Thế loại: Hài hước - Tội phạm - Hành động</div>
+                        <div class="actor">Dwayne Johnson, Ryan Reynolds, Gal Gadot</div>
+                        <div class="category">Hài hước - Tội phạm - Hành động</div>
                         <div class="describle">
                                 <p style="font-size:18px;">Chuyên gia FBI đang tìm bắt kẻ trộm tranh bị truy nã <br/>
                                         gắt gao nhất thế giới thì trở thành cộng sự bất đắc dĩ của hắn<br/>
@@ -92,6 +107,9 @@
                         </button>
                         <button class="button nofication" id="button2">
                                 <div class="material-symbols-outlined" id="notion_error">error</div>
+                        </button>
+                        <button class="button nofication" id="button3">
+                                <div class="material-symbols-outlined" id="love">favorite</div>
                         </button>
                 </div>
             </div>
@@ -460,8 +478,6 @@
                     </div>
                 </div>
             </div>
-
-
 
 
             <div class="section_fourth">
