@@ -12,3 +12,8 @@ const btnHomePage = document.getElementById("home");
 btnHomePage.onclick = function(){
     window.location.href = "./trangchu.html";
 }
+
+const btnMovieSeries = document.getElementById("tvshow");
+btnMovieSeries.onclick = function(){
+    window.location.href = "./phim_truyenhinh.html";
+};

@@ -38,7 +38,6 @@ let stringHTML = "";
 
 for(let film of filmList){
     stringHTML += `
-
             <div class="owl-item" id="owl-item">
                 <img src=${film.imageFilm} width="200px" height="100px" id="img" />
                 <div class="small-item">
@@ -49,7 +48,6 @@ for(let film of filmList){
                   <p class="movie description">${film.cateGory}</p>
                 </div>
             </div>
-
     `
 }
 sectionSixth.innerHTML = stringHTML;
