@@ -141,4 +141,11 @@
 
 // showSlide(0);
 
-
+// const slider = document.getElementById('next');
+// slider = function(){
+//     $(".owl-item").slick({
+//         infinite:true,
+//         slidesToShow: 5,
+//         slidesToScroll:1
+//     });
+// }
