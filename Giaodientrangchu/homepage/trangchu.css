@@ -159,19 +159,25 @@ input{
 }
 #button1{
     position:absolute;
-    padding-left:50px;
-    padding-right:50px;
+    width:140px;
+    height:40px;
     margin-top:-70px;
     margin-left:50px;
     cursor:pointer;
+    display:flex;
 }
 #button2{
     position:absolute;
-    padding-left:50px;
-    padding-right:50px;
+    width:170px;
+    height:40px;
     margin-top:-70px;
     margin-left:200px;
     cursor:pointer;
+    display:flex;
+}
+h4{
+    line-height:45px;
+    margin-left:20px;
 }
 #button3{
     display:none;
@@ -180,11 +186,11 @@ input{
 .button{
     border-radius:5px;
     border-style:none;
-    opacity:0.7;
-    background-color:rgb(106, 106, 106);
+    background-color:rgb(255, 255, 255);
 }
 .button:hover{
-    background-color:white;
+    background-color:black;
+    color:white;
 }
 
 select{
@@ -307,7 +313,50 @@ p{
     margin-left:30px;
 }
 
+.footer{
+    margin-left:250px;
+    margin-top:200px;
+}
+.fb{
+    cursor:pointer;
+    color:white;
+}
+.msg, .twit, .ins, .ytb{
+    margin-left:20px;
+    cursor:pointer;
+    color:white;
+}
+.fb:hover{
+    color:rgb(37, 50, 193);
+    font-size:30px;
+}
+.msg:hover{
+    color:rgb(192, 74, 180);
+    font-size:30px;
+}
+.twit:hover{
+    color:cornflowerblue;
+    font-size:30px;
+}
+.ins:hover{
+    color:navajowhite;
+    font-size:30px;
+}
+.ytb:hover{
+    color:red;
+    font-size:30px;
+}
 
+.section-contact{
+    display:flex;
+    gap:50px;
+    margin-top:20px;
+}
+a{
+    color:white;
+    font-size:10px;
+    text-decoration-line: none;
+}
 
 /* điện thoại */
 @media only screen and (max-width:576px){

@@ -29,6 +29,9 @@
     font-size:10px;
     line-height:30px;
 }
+.tvshow{
+    color:red;
+}
 .nav-item:hover{
     color:red;
 }
@@ -46,14 +49,19 @@
 #search, #notion{
     font-size:17px;
 }
-select{
+.select_lang{
     font-size: 10px;
     margin-top:10px;
     background-color: transparent;
     color:white;
     border-style:none;
 }
-
+.select_lang:hover{
+    color:red;
+}
+#select_menu{
+    border-color:red;
+}
 .title_first, .title_second, .title_third, .title_fourth{
     color:white;
 }
@@ -117,14 +125,11 @@ p{
     padding:4px 12px;
     border-radius:5px;
 }
-select:hover{
-    color:red;
-}
 .section_first{
-    margin-left:30px;
     margin-top:100px;
+    margin-left:30px; 
 }
 .section_second, .section_third, .section_fourth{
-    margin-top:110px;
+    margin-top:100px;
     margin-left:30px;
 }
