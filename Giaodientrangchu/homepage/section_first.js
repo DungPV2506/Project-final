@@ -2,7 +2,7 @@ const filmList_first = [
     {
         nameFilm_first: "Bóng ma anh quốc",
         cateGory_first: "Bạo lực - Tình dục - Tự sát",
-        imageFilm_first: "./img/anh7.jpg",
+        imageFilm_first: "./img/anh7.jpg", 
     },
     {
         nameFilm_first: "Mission impossible 6: Fall out",

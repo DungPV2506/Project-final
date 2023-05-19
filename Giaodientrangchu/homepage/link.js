@@ -16,4 +16,4 @@ btnHomePage.onclick = function(){
 const btnMovieSeries = document.getElementById("tvshow");
 btnMovieSeries.onclick = function(){
     window.location.href = "./phim_truyenhinh.html";
-};
+}

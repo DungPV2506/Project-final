@@ -7,6 +7,8 @@
     width:auto;
     height:2000px;
 }
+
+
 .header{
     display:flex;
     justify-content: space-between;
@@ -51,12 +53,15 @@ select{
 select:hover{
     color:red;
 }
-
 #search, #notion{
     font-size:20px;
     margin-top:8px;
     margin-right:10px;
 }
+
+
+
+
 .mylist{
     color:red;
 }
@@ -116,3 +121,50 @@ p:hover{
 }
 
 
+
+
+
+.footer{
+    margin-left:250px;
+    margin-top:200px;
+}
+.fb{
+    cursor:pointer;
+    color:white;
+    font-size:30px;
+}
+.msg, .twit, .ins, .ytb{
+    margin-left:20px;
+    cursor:pointer;
+    color:white;
+    font-size:30px;
+}
+.fb:hover{
+    color:rgb(37, 50, 193);
+}
+.msg:hover{
+    color:rgb(192, 74, 180);
+}
+.twit:hover{
+    color:cornflowerblue;
+}
+.ins:hover{
+    color:navajowhite;
+}
+.ytb:hover{
+    color:red;
+}
+
+.section-contact{
+    display:flex;
+    gap:50px;
+    margin-top:20px;
+}
+a{
+    color:white;
+    font-size:10px;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration: underline;
+}
