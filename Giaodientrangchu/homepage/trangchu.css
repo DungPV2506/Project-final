@@ -5,7 +5,7 @@
 .container{
     background-color:rgb(22, 22, 22);
     width:auto;
-    height:2000px;
+    height:auto;
 }
 
 
@@ -209,34 +209,9 @@ select{
 select:hover{
     color:red;
 }
-.title_first{
-    position:absolute;
-    margin-top:-20px;
-    color:white;
-}
-.title_second{
+.title{
     position:absolute;
     margin-top:-30px;
-    color:white;
-}
-.title_third{
-    position:absolute;
-    margin-top:-30px;
-    color:white;
-}
-.title_fourth{
-    position:absolute;
-    margin-top:-30px;
-    color:white;
-}
-.title_fifth{
-    position:absolute;
-    margin-top:-30px;
-    color:white;
-}
-.title_sixth{
-    position:absolute;
-    margin-top:-110px;
     color:white;
 }
 .owl-wrapper{
@@ -255,11 +230,7 @@ select:hover{
 ::-webkit-scrollbar-thumb{
     background-color:rgb(152, 17, 17);
 }
-#img{
-    display:block;
-    transition-duration:1s;
-    position:relative;
-}
+
 .small-item{
     display:none;
     position:absolute;
@@ -300,18 +271,12 @@ p{
     margin-left:10px;
     font-size:10px;
 }
-.section_first{
-    display:flex;
-    column-gap:10px;
-    margin-left:30px;
-    overflow:auto;
-}
-.section_first::-webkit-scrollbar{
+.section::-webkit-scrollbar{
     height:5px;
 }
-.section_second, .section_third, .section_fourth, .section_fifth, .section_six{
+.section{
     margin-top:150px;
-    margin-left:30px;
+    margin-left:20px;
 }
 
 

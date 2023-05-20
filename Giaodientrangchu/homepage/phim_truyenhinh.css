@@ -67,7 +67,7 @@
 #select_menu{
     border-color:red;
 }
-.title_first, .title_second, .title_third, .title_fourth{
+.title_first{
     color:white;
 }
 .small-item{
@@ -131,11 +131,7 @@ p{
 }
 .section_first{
     margin-top:100px;
-    margin-left:30px; 
-}
-.section_second, .section_third, .section_fourth{
-    margin-top:100px;
-    margin-left:30px;
+    margin-left:20px;
 }
 
 
