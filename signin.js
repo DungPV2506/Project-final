@@ -9,7 +9,7 @@ function dangNhap(event){
     if (enteredUsername === storedUsername && enteredPassword === storedPassword) 
     {
     alert('Đăng nhập thành công!');
-    window.location.assign("trangchu.js");
+    window.location.assign("trangchu.html");
 }
     else {
     alert('Đăng nhập không thành công. Vui lòng kiểm tra lại tên đăng nhập và mật khẩu.');
