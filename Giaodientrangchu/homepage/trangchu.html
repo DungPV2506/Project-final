@@ -51,7 +51,7 @@
             <span class="material-symbols-outlined" id="home"> home </span>
           </div>
           <div class="nav-icon">
-            <input type="text" class="nav-search" id="nav-search" placeholder="diễn viên,tên phim...">
+            <input type="text" class="nav-search" id="nav-search" placeholder="   diễn viên,tên phim..." name="search">
             <span class="material-symbols-outlined" id="search"> search </span>
           </div>
           <div class="nav-icon">
@@ -72,17 +72,10 @@
           <div class="nav-icon">
             <select>
               <option value="">
-                <i class="fa-thin fa-globe"></i>
+                <i class="fa-regular fa-right-from-bracket"></i>
               </option>
-              <option value="" selected>
-                <h3>VI</h3>
-              </option>
-              <option value="">
-                <h3>EN</h3>
-              </option>
-              <option value="">
-                <h3>KOR</h3>
-              </option>
+              <option value=""  selected>VI</option>
+              <option value="">EN</option>
             </select>
           </div>
         </div>
@@ -148,7 +141,10 @@
           <div class="title">Top phim tại Việt nam hôm nay</div>
           <div class="owl-wrapper">
             <div class="owl-item">
-              <img src="./img/anh45.jpg" width="200px" height="100px" id="img" />
+              <ul id="search-list">
+                <li><img src="./img/anh45.jpg" width="200px" height="100px" id="img" /></li>
+              </ul>
+              
               <div class="small-item">
                 <span class="material-symbols-outlined">play_circle</span>
                 <span class="material-symbols-outlined" id="add_circle">add_circle</span>

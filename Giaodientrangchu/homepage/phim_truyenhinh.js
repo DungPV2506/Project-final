@@ -235,7 +235,7 @@ const renderFlims = (listMovie) => {
 
         stringHTML += `<div class="section_first section" id="section_first">
             <div class="content" id="content_first">
-                <div class="title_second">${list.cateGory}</div>
+                <div class="title_first">${list.cateGory}</div>
                 <div class="owl-wrapper">
                 `
         for(let movie of list.movies){
@@ -270,7 +270,7 @@ const renderFlims = (listMovie) => {
 const test = (idCategory, idFlim) => {
     let listMovieFavourite = JSON.parse(localStorage.getItem('moviesFavourite'));
     if(!listMovieFavourite){
-        listMovieFavourite = []
+        listMovieFavourite = [];
     }
     for(let category of listMovie){
         if(category.id === idCategory){

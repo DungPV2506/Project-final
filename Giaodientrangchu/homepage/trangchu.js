@@ -594,7 +594,12 @@ const renderList = (filmList) => {
         for(let obj of film.notion){
             stringHTML += `
             <div class="owl-item" id="owl-item">
-              <img src=${obj.imageFilm} width="200px" height="100px" id="img"/>
+            <ul>
+                <li>
+                    <img src=${obj.imageFilm} width="200px" height="100px" id="img"/>
+                </li>
+            </ul>
+              
               <div class="small-item">
                 <span class="material-symbols-outlined">play_circle</span>
                <span class="material-symbols-outlined" id="add_circle">add_circle</span>
@@ -628,3 +633,5 @@ for (let i = 0 ; i < addToListByFavorite.length; i++){
         alert("Đã thêm vào mục yêu thích")
     });
 }
+
+
