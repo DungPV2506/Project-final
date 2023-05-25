@@ -7,6 +7,7 @@ function dangKy(event){
     localStorage.setItem("password", newPassword);
     
     alert('Đăng ký thành công');
+    window.location.assign("signin.js");
 }
 const signupButton = document.getElementById("signupbtn");
 signupButton.addEventListener("click", dangKy); 
