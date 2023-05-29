@@ -1,0 +1,182 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:rgb(22, 22, 22);
+    width:auto;
+    height:2000px;
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    position:sticky;
+    top:0;
+    cursor:pointer;
+    z-index:9;
+    border:1px solid black;
+    background-color:rgb(0, 0, 0);
+    opacity:0.8;
+}
+.nav-bar{
+    display:flex;
+}
+.nav-item{
+    margin-left:20px;
+    margin-top:10px;
+    font-size:10px;
+    line-height:30px;
+}
+.tvshow{
+    color:red;
+}
+.nav-item:hover{
+    color:red;
+}
+.nav-icon{
+    margin-right:10px;
+    margin-top:10px;
+}
+.nav-icon:hover{
+    color:red;
+}
+.right{
+    margin-right:20px;
+    gap:20px;
+}
+#search, #notion{
+    font-size:17px;
+}
+.select_lang{
+    font-size: 10px;
+    margin-top:10px;
+    background-color: transparent;
+    color:white;
+    border-style:none;
+}
+.select_lang:hover{
+    color:red;
+}
+
+
+
+#select_menu{
+    border-color:red;
+}
+.title_first{
+    color:white;
+}
+.small-item{
+    display:none;
+    position:absolute;
+    color:white;
+    width:180px;
+    height:100px;
+    transition-duration:0.5s;
+    opacity:0.6;
+}
+.owl-item {
+    position: relative;
+}
+.owl-item:hover .small-item{
+    display:block;
+    background-color:black;
+    text-align:left;
+    cursor:pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    margin-top:0px;
+}
+.owl-wrapper{
+    display:grid;
+    grid-template-columns: 180px 180px 180px 180px 180px;
+    grid-template-rows:100px 100px ;
+    column-gap:10px;
+    row-gap:20px;
+    margin-top:20px;
+}
+.material-symbols-outlined{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:20px;
+}
+.material-symbols-outlined:hover{
+    color:red;
+}
+p:hover{
+    color:red;
+}
+p{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:10px;
+}
+.section_zero{
+    margin-top:20px;
+    margin-left:30px;
+}
+.select_zero{
+    font-size:20px;
+    color:white;
+    background-color: black;
+    padding:4px 12px;
+    border-radius:5px;
+}
+.section_first{
+    margin-top:100px;
+    margin-left:20px;
+}
+
+
+
+.footer{
+    margin-left:250px;
+    margin-top:200px;
+}
+.fb{
+    cursor:pointer;
+    color:white;
+    font-size:30px;
+}
+.msg, .twit, .ins, .ytb{
+    margin-left:20px;
+    cursor:pointer;
+    color:white;
+    font-size:30px;
+}
+.fb:hover{
+    color:rgb(37, 50, 193);
+}
+.msg:hover{
+    color:rgb(192, 74, 180);
+}
+.twit:hover{
+    color:cornflowerblue;
+}
+.ins:hover{
+    color:navajowhite;
+}
+.ytb:hover{
+    color:red;
+}
+
+.section-contact{
+    display:flex;
+    gap:50px;
+    margin-top:20px;
+}
+a{
+    color:white;
+    font-size:10px;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration: underline;
+}

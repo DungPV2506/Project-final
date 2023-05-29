@@ -1,0 +1,121 @@
+.container {
+    position: relative;
+    padding: 72px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1.title-nav {
+    color: red;
+    font-size: 36px;
+}
+
+a.signup {
+    padding: 2px 20px;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.BODY-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.stepLogoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span.stepInicator {
+    font-size: 12px;
+}
+
+h2.stepTitle {
+    font-size: 40px;
+    width: 402px;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+img.images {
+    margin-bottom: 40px;
+}
+.content {
+    width: 300px;
+    font-size: 21px;
+}
+img {
+    width: 200px;
+    height: 100px;
+}
+
+button.btn {
+    padding: 2px 20px;
+    width: 400px;
+    height: 60px;
+    border: 1px solid;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button.btn :hover{
+    opacity: 0.5;
+}
+/* CSS footer */
+
+a.footer-top-a {
+    margin-left: 41px;
+}
+.footer-container {
+    padding: 72px 0px;
+    margin: 0px 365px;
+    position: relative;
+}
+
+ul.footer-link {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 30px 30px;
+    list-style: none;
+}
+
+.lang {
+    margin-left: 41px;
+    position: absolute;
+}
+
+.language-footer {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+select.languageSelect-footer {
+    padding: 4px 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+i.fa-sharp.fa-solid.fa-globe {
+    position: absolute;
+}

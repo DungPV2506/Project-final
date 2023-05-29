@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./phim_truyenhinh.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com" />
+    <link
+      src="http://maxcdn.bootstrapcdn.com/font-awesome/6.4.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+    />
+    <link href="https://fonts.cdnfonts.com/css/metropolis-2" rel="stylesheet" />
+    <link rel="stylesheet" href="https://npm i bootstrap-icons" />
+    <link rel="stylesheet" href="https://fontawesome.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..180"
+    />
+    <title>Phim truyền hình</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="nav-bar left">
+          <div class="nav-item logo">
+            <img src="./img/Netflixlogo.png" width="70px" height="30px" />
+          </div>
+          <div class="nav-item home" id="homepage">Trang chủ</div>
+          <div class="nav-item tvshow" id="tvshow">Phim T.Hình</div>
+          <div class="nav-item mylist" id="mylist">Danh sách của tôi</div>
+        </div>
+
+        <div class="nav-bar right">
+          <div class="nav-icon">
+            <span class="material-symbols-outlined" id="search"> search </span>
+          </div>
+          <div class="nav-icon">
+            <span class="material-symbols-outlined" id="notion"
+              >notifications</span
+            >
+          </div>
+          <div class="nav-icon">
+            <select class="select_lang">
+              <option value="">
+                <i class="fa-thin fa-globe"></i>
+              </option>
+              <option value="" selected>
+                <h3>VI</h3>
+              </option>
+              <option value="">
+                <h3>EN</h3>
+              </option>
+              <option value="">
+                <h3>KOR</h3>
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_zero">
+        <select class="select_zero" id="select_menu">
+          <option value="1" data-target="section_first" id="cooking-show">Chương trình nấu ăn</option>
+          <option value="2" data-target="section_second" id="korean-drama">Chính kịch hàn quốc</option>
+          <option value="3" data-target="section_third" id="crimal-show">Tội phạm Âu - Mỹ</option>
+          <option value="4" data-target="section_fourth" id="survival-show">Chương trình sinh tồn</option>
+          <option value="" selected>Chọn thể loại</option>
+        </select>
+      </div>
+
+        <div class="section_first section" id="section_first">
+          <div class="content">
+            <div class="title_first">Chương trình nấu ăn</div>
+            <div class="owl-wrapper">
+              <div class="owl-item" id="owl-item">
+                <img
+                  src="./img/anh7.jpg"
+                  width="180px"
+                  height="100px"
+                  id="img"
+                  class="anh"
+                />
+                <div class="small-item">
+                  <span class="material-symbols-outlined">play_circle</span>
+                  <span class="material-symbols-outlined" id="add_circle">add_circle</span>
+                  <span class="material-symbols-outlined" id="add_favorite">favorite</span>
+                  <p class="movie">Bóng ma Anh Quốc</p>
+                  <p class="movie description">Bạo Lực - Tình dục - Tự sát</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="icon-footer">
+            <i class="fa-brands fa-facebook fb"></i>
+          <i class="fa-brands fa-facebook-messenger msg"></i>
+          <i class="fa-brands fa-twitter twit"></i>
+          <i class="fa-brands fa-instagram ins"></i>
+          <i class="fa-brands fa-youtube ytb"></i>
+          </div>
+          <div class="section-contact">
+            <div class="contact-1">
+              <a href="#">Mô tả âm thanh</a><br/>
+              <a href="#">Quan hệ với nhà đầu tư</a><br/>
+              <a href="#">Thông báo pháp lý</a><br/>
+            </div>
+            <div class="contact-2">
+              <a href="#">Trung tâm trợ giúp </a><br/>
+              <a href="#">Việc làm</a><br/>
+              <a href="#">Tùy chọn cookie</a><br/>
+            </div>
+            <div class="contact-3">
+              <a href="#">Thẻ quà tặng</a><br/>
+              <a href="#">Thông tin doanh nghiệp</a><br/>
+              <a href="#">Điều khoản sử dụng</a><br/>
+            </div>
+            <div class="contact-4">
+              <a href="#">Trung tâm đa phương tiện</a><br/>
+              <a href="#">Quyền riêng tư</a><br/>
+              <a href="#">Liên hệ với chung tôi</a><br/>
+            </div>
+          </div>
+          
+        </div>
+      
+    </div>
+
+    <script src="./link.js"></script>
+    <script src="./phim_truyenhinh.js"></script>
+    
+  </body>
+</html>
